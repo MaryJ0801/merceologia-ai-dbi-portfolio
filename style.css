@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f4ef;
+  color: #1f2933;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  background: #f7f4ef;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  color: #0f766e;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #1f2933;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 90px 60px;
+  background: linear-gradient(135deg, #e6f4f1, #f7f4ef);
+}
+
+.tag {
+  color: #0f766e;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+.descripcion {
+  font-size: 20px;
+  max-width: 850px;
+}
+
+.info {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section {
+  padding: 70px 60px;
+}
+
+.section h2 {
+  font-size: 36px;
+}
+
+.numero {
+  font-size: 20px;
+  color: #0f766e;
+  font-weight: bold;
+}
+
+.dark {
+  background: #102a43;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  color: #1f2933;
+  padding: 25px;
+  border-radius: 18px;
+  width: 30%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+li {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+footer {
+  padding: 30px 60px;
+  background: #0f766e;
+  color: white;
+}
